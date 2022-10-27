@@ -4,10 +4,10 @@
  */
 #map {
   height: 600px;
-  margin-top: 50px;
-  margin-right: 50px;
-  margin-left: 50px;
-
+}
+/*ocultar botones de stilo*/
+.gm-style-mtc {
+  display: none !important;
 }
 
 /* 
@@ -66,17 +66,6 @@ body {
   font-weight: 300;
 }
 
-#pac-input {
-  background-color: #fff;
-  font-family: Roboto;
-  font-size: 15px;
-  font-weight: 300;
-  margin-left: 12px;
-  padding: 0 11px 0 13px;
-  text-overflow: ellipsis;
-  width: 400px;
-}
-
 #pac-input:focus {
   border-color: #4d90fe;
 }
@@ -93,3 +82,9 @@ body {
   width: 345px;
 }
 
+@media (max-width: 600px) {
+  #map {
+    height: 92vh;
+
+      }
+}
